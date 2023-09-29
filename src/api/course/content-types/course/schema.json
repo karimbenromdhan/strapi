@@ -1,0 +1,127 @@
+{
+  "kind": "collectionType",
+  "collectionName": "courses",
+  "info": {
+    "singularName": "course",
+    "pluralName": "courses",
+    "displayName": "course",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "wpID": {
+      "type": "biginteger"
+    },
+    "post_author": {
+      "type": "integer"
+    },
+    "post_date": {
+      "type": "datetime"
+    },
+    "post_content": {
+      "type": "text"
+    },
+    "post_title": {
+      "type": "text"
+    },
+    "post_excerpt": {
+      "type": "string"
+    },
+    "post_status": {
+      "type": "string"
+    },
+    "comment_status": {
+      "type": "string"
+    },
+    "ping_status": {
+      "type": "string"
+    },
+    "post_password": {
+      "type": "string"
+    },
+    "post_name": {
+      "type": "text"
+    },
+    "to_ping": {
+      "type": "string"
+    },
+    "pinged": {
+      "type": "string"
+    },
+    "post_content_filtered": {
+      "type": "string"
+    },
+    "post_parent": {
+      "type": "integer"
+    },
+    "guid": {
+      "type": "string"
+    },
+    "menu_order": {
+      "type": "integer"
+    },
+    "post_type": {
+      "type": "string"
+    },
+    "post_mime_type": {
+      "type": "string"
+    },
+    "comment_count": {
+      "type": "integer"
+    },
+    "filter": {
+      "type": "string"
+    },
+    "kurs_aufrufen": {
+      "type": "string"
+    },
+    "vnr_nummer": {
+      "type": "biginteger"
+    },
+    "zertifiziert_in": {
+      "type": "string"
+    },
+    "zertifiziert_durch_link": {
+      "type": "string"
+    },
+    "zertifiziert_durch_name": {
+      "type": "string"
+    },
+    "zertifiziert_bis": {
+      "type": "biginteger"
+    },
+    "cme_punkte": {
+      "type": "string"
+    },
+    "zielgruppe": {
+      "type": "string"
+    },
+    "repeater_autoren": {
+      "type": "json"
+    },
+    "redaktion": {
+      "type": "string"
+    },
+    "veranstaltungstyp": {
+      "type": "string"
+    },
+    "lernmaterial": {
+      "type": "string"
+    },
+    "fortbildungspartner_link": {
+      "type": "string"
+    },
+    "fortbildungspartner_name": {
+      "type": "string"
+    },
+    "voltext_text": {
+      "type": "string"
+    },
+    "gultig_ab": {
+      "type": "string"
+    }
+  }
+}
